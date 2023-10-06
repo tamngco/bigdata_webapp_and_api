@@ -1,0 +1,12 @@
+version: '1.0'
+
+services:
+  webapi:
+      build: .
+      container_name: 'webapi'
+      ports:
+        - "81:80"
+      volumes:
+        - ./app:/app
+        - ./static:/static
+        - ./Predictions:/Predictions
