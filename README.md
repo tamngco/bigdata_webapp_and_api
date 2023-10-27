@@ -1,5 +1,5 @@
-# Hướng dẫn tải về và sử dụng Big Data WebApp và API
-## Bước 1: Tải về source code Docker
+## Hướng dẫn tải về và sử dụng Big Data WebApp và API
+### Bước 1: Tải về source code Docker
 ```
 git clone https://github.com/tamngco/bigdata_webapp_and_api.git
 ```
