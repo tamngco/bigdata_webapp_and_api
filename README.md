@@ -15,6 +15,9 @@ git clone https://github.com/tamngco/bigdata_webapp_and_api.git
 ```
 docker-compose up
 ```
+### Step 4: Restore dữ liệu Clickhouse
+
+
 ### Setup Superset
 - Trong command prompt, chạy các lệnh sau:
   - Tạo tài khoản và phân quyền cho admin: (username: admin; password: admin)
@@ -46,5 +49,5 @@ docker exec -it superset-app superset init
 pip install clickhouse-connect
 ```
 
-### Step 4: Truy cập và sử dụng WebApp (demo)
+### Step 4: Truy cập và dùng thử ứng dụng Thương mại điện tử (demo)
 - WebApp Demo: http://localhost:82
